@@ -4,12 +4,16 @@ Detta är grunden för ett arbetsprov i C#/ASP.Net Core. Projektet är i grund o
 botten ASP.Net Core MVC-mallen med visa saker bortstädade för att hålla det så
 enkelt som möjligt.
 
+Målet är att se hur en arbetssökande tänker kring implementationen av ett enkelt
+MVC-API som hämtar information från tredje part och hur man sen kan prata kring
+de val man gjorde under uppgiften.
+
 Att lösa uppgiften borde ta 1-2 timmar, vill man göra mer så är det plus i kanten
 men man bör inte lägga för mycket tid heller. Presentationen är inte i fokus här
 utan det viktiga är att koden är sund och välstrukturerad.
 
-Det är fritt fram att dra in nya paket från nuget eller npm. Kopieras större
-stycken kod från t.ex. stackoverflow eller github så bör detta kommenteras.
+Det är fritt fram att dra in nya paket från nuget (t.ex. Json.NET) eller npm om
+så önskas.
 
 Resultatet av provet kommer sen att användas som diskussionsunderlag vid nästa
 intervju. Är det inte färdigt? Är det något som inte fungerar? Då kan vi diskutera
@@ -31,8 +35,8 @@ Skapa en fork av repositoryt på github eller klona det direkt till din dator
 (eller ladda ner det som en zip-fil via den gröna knappen ovan om du inte vill
 använda Git).
 
-Implementera en klass, `WeatherService`, som hämtar väderdata från yr.no på
-endpointen nedan.
+Implementera den logik som saknas `WeatherService` för att hämta väderdata från
+yr.no på endpointen nedan.
 
 > https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=63.8258&lon=20.2630
 
