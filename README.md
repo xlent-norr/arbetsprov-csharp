@@ -31,11 +31,11 @@ att göra detta på Windows, OSX eller Linux.
 
 ## Uppgift
 
-Ta en kopiera på projektet (forka på github, skapa
-[nytt repo med detta som template](https://github.com/xlent-norr/arbetsprov-csharp/generate),
-klona direkt, eller ladda ner det som en
-[zip-fil](https://github.com/xlent-norr/arbetsprov-csharp/archive/refs/heads/main.zip)
-inte vill använda Git).
+Ta en kopia på projektet (forka på github, skapa
+[nytt repo med detta som template](https://github.com/xlent-norr/arbetsprov-csharp/generate)
+eller klona direkt till din dator). Vill du inte använda Git så kan du också ladda
+ner projektet som en
+[zip-fil](https://github.com/xlent-norr/arbetsprov-csharp/archive/refs/heads/main.zip).
 
 Implementera den logik som saknas `WeatherService` för att hämta väderdata från
 yr.no på endpointen nedan.
@@ -57,7 +57,7 @@ Man får fria händer i projektet, men följande filer lär det vara svårt att 
 * src\Arbetsprov<span>.CSharp.Web\Views\Home\Index.cshtml
 * src\Arbetsprov<span>.CSharp.Web\wwwroot\js\site.js
 
-### Bonuspoäng
+### Vill du ha en stjärna i kanten?
 
 Dessa är saker som vi ser positivt på om man tar hänsyn till när man implementerar
 sin lösning.
