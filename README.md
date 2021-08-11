@@ -51,7 +51,7 @@ via javascript.
 
 Man får fria händer i projektet, men följande filer lär det vara svårt att undvika.
 
-* [src\Arbetsprov.CSharp.Web\Controllers\WeatherApiController.cs](src\Arbetsprov.CSharp.Web\Controllers\WeatherApiController.cs)
+* src\Arbetsprov<span>.CSharp.Web\Controllers\WeatherApiController.cs
 * src\Arbetsprov<span>.CSharp.Web\Models\WeatherData.cs
 * src\Arbetsprov<span>.CSharp.Web\Services\WeatherService.cs
 * src\Arbetsprov<span>.CSharp.Web\Views\Home\Index.cshtml
