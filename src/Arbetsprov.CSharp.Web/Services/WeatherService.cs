@@ -6,9 +6,9 @@ namespace Arbetsprov.CSharp.Web.Services
 {
     public class WeatherService
     {
-        public Task<WeatherData> GetWeatherDataAsync(double latitude, double longitude)
+        public async Task<WeatherData> GetWeatherDataAsync(double latitude, double longitude)
         {
-            return Task.FromResult(new WeatherData());
+            return new WeatherData();
         }
     }
 }

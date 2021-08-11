@@ -1,8 +1,8 @@
 # Arbetsprov C#
 
 Detta är grunden för ett arbetsprov i C#/ASP.Net Core. Projektet är i grund och
-botten ASP.Net Core MVC-mallen med visa saker bortstädade för att hålla det så
-enkelt som möjligt.
+botten ASP<span>.Net Core MVC-mallen med visa saker bortstädade för att hålla det
+så enkelt som möjligt.
 
 Målet är att se hur en arbetssökande tänker kring implementationen av ett enkelt
 MVC-API som hämtar information från tredje part och hur man sen kan prata kring
@@ -31,9 +31,11 @@ att göra detta på Windows, OSX eller Linux.
 
 ## Uppgift
 
-Skapa en fork av repositoryt på github eller klona det direkt till din dator
-(eller ladda ner det som en zip-fil via den gröna knappen ovan om du inte vill
-använda Git).
+Ta en kopiera på projektet (forka på github, skapa
+[nytt repo med detta som template](https://github.com/xlent-norr/arbetsprov-csharp/generate),
+klona direkt, eller ladda ner det som en
+[zip-fil](https://github.com/xlent-norr/arbetsprov-csharp/archive/refs/heads/main.zip)
+inte vill använda Git).
 
 Implementera den logik som saknas `WeatherService` för att hämta väderdata från
 yr.no på endpointen nedan.
@@ -45,20 +47,34 @@ Mer information om APIet finns på https://developer.yr.no/.
 Exponera informationen via `WeatherApiController` och hämta detta till startsidan
 via javascript.
 
+### Relevanta filer
+
+Man får fria händer i projektet, men följande filer lär det vara svårt att undvika.
+
+* src\Arbetsprov<span>.CSharp.Web\Controllers\WeatherApiController.cs
+* src\Arbetsprov<span>.CSharp.Web\Models\WeatherData.cs
+* src\Arbetsprov<span>.CSharp.Web\Services\WeatherService.cs
+* src\Arbetsprov<span>.CSharp.Web\Views\Home\Index.cshtml
+* src\Arbetsprov<span>.CSharp.Web\wwwroot\js\site.js
+
 ### Bonuspoäng
 
-Dessa är saker som man kan tänka på när man implementerar sin lösning men som
-inte är strikt nödvändiga att uppfylla.
+Dessa är saker som vi ser positivt på om man tar hänsyn till när man implementerar
+sin lösning.
 
 * Använd git, skriv bra commit-meddelanden.
-* Använd dependency injection.
+* Använd dependency injection i ASP<span>.Net Core.
 * Validera fälten på klientsidan.
-* Skriv några enkla enhetstester för `WeatherService` och `WeatherContrller`.
-* Strukturera koden snyggt.
-* Kommentera koden där det känns rimligt (lagom är bäst).
-* Lägg till egen styling (CSS) på sidan.
-* Använd inte jQuery på klientsidan (jQuery är bra på många saker, men det är bra
-  att visa att man kan jobba utan det också).
+* Skriv några enkla enhetstester för `WeatherService` och `WeatherController`.
+* Strukturera koden snyggt, skriv semantiskt korrekt html.
+* Kommentera koden där det känns rimligt.
+* Anpassa stylingen på resultatet.
+* Använd inte jQuery på klientsidan.
+
+### Frågor eller funderingar
+
+Om du har frågor eller känner att något behöver förtydligas kring uppgiften så
+hör av dig till din kontaktperson så får vi reda ut det.
 
 ## Skicka in arbetsprovet
 
