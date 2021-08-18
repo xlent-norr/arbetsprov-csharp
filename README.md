@@ -45,15 +45,17 @@ yr.no på endpointen nedan.
 Mer information om APIet finns på https://developer.yr.no/.
 
 Exponera informationen via `WeatherApiController` och hämta detta till startsidan
-via javascript.
+via javascript. Presentera informationen på lämpligt sätt.
 
 ### Relevanta filer
 
-Man får fria händer i projektet, men följande filer lär det vara svårt att undvika.
+Man får fria händer i hur man vill strukturera projektet för att uppnå resultatet.
+Följande filer finns förberedda i projektet men vill man strukturera koden annorlunda
+så är det fritt fram.
 
+* src\Arbetsprov<span>.CSharp.Web\Contracts\IWeatherService.cs
 * src\Arbetsprov<span>.CSharp.Web\Controllers\WeatherApiController.cs
 * src\Arbetsprov<span>.CSharp.Web\Models\WeatherData.cs
-* src\Arbetsprov<span>.CSharp.Web\Services\WeatherService.cs
 * src\Arbetsprov<span>.CSharp.Web\Views\Home\Index.cshtml
 * src\Arbetsprov<span>.CSharp.Web\wwwroot\js\site.js
 
@@ -64,12 +66,15 @@ sin lösning.
 
 * Använd git, skriv bra commit-meddelanden.
 * Använd dependency injection i ASP<span>.Net Core.
-* Validera fälten på klientsidan.
 * Skriv några enkla enhetstester för `WeatherService` och `WeatherController`.
+* Felhantering både på servern och i frontend.
 * Strukturera koden snyggt, skriv semantiskt korrekt html.
+* Validera fälten på klientsidan.
 * Kommentera koden där det känns rimligt.
 * Anpassa stylingen på resultatet.
 * Använd inte jQuery på klientsidan.
+
+Har du egna idéer på hur något kan göras bättre? Visa vad du är bäst på!
 
 ### Frågor eller funderingar
 
