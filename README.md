@@ -12,8 +12,8 @@ Att lösa uppgiften borde ta 1-2 timmar, vill man göra mer så är det plus i k
 men man bör inte lägga för mycket tid heller. Presentationen är inte i fokus här
 utan det viktiga är att koden är sund och välstrukturerad.
 
-Det är fritt fram att dra in nya paket från nuget (t.ex. Json.NET) eller npm om
-så önskas.
+Det är fritt fram att dra in nya paket från nuget (t.ex. Json.NET), npm eller
+ta lokala referenser om så önskas.
 
 Resultatet av provet kommer sen att användas som diskussionsunderlag vid nästa
 intervju. Är det inte färdigt? Är det något som inte fungerar? Då kan vi diskutera
@@ -23,10 +23,10 @@ kring det åtminstone!
 
 Följande behöver som minst finnas installerat på utvecklingsmaskinen.
 
-* .NET 5.0 (https://dot.net)
+* .NET 6.0 (https://dot.net)
 * Valfri text-editor (Visual Studio Code rekommenderas, https://code.visualstudio.com/)
 
-Då .NET 5 och Visual Studio Code fungerar oavsett plattform så är det fritt fram
+Då .NET 6 och Visual Studio Code fungerar oavsett plattform så är det fritt fram
 att göra detta på Windows, OSX eller Linux.
 
 ## Uppgift
