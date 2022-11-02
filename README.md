@@ -44,7 +44,7 @@ yr.no på endpointen nedan.
 
 Mer information om APIet finns på https://developer.yr.no/.
 
-Exponera informationen via `WeatherApiController` och hämta detta till startsidan
+Exponera informationen via `WeatherApiController` som JSON och hämta detta till startsidan
 via javascript. Presentera informationen på lämpligt sätt.
 
 ### Relevanta filer
@@ -67,6 +67,7 @@ sin lösning.
 * Använd git, skriv bra commit-meddelanden.
 * Använd dependency injection i ASP<span>.Net Core.
 * Skriv några enkla enhetstester för `WeatherService` och `WeatherController`.
+* Använd en egen vy-modell mot frontend istället för YRs datamodell. 
 * Felhantering både på servern och i frontend.
 * Strukturera koden snyggt, skriv semantiskt korrekt html.
 * Validera fälten på klientsidan.
@@ -85,4 +86,5 @@ hör av dig till din kontaktperson så får vi reda ut det.
 
 Om du gjort en fork av repositoryt så skicka länken till din kontaktperson. Om du
 klonade exempel-repositoryt eller tog ner det som en zip-fil så kan du zippa ihop
-det igen och skicka in.
+det igen och skicka in (om du vill skicka in en ZIP-fil men har använt git så se
+till att .git-mappen följer med i ZIP-filen).
