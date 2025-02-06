@@ -8,9 +8,8 @@ Målet är att se hur en arbetssökande tänker kring implementationen av ett en
 MVC-API som hämtar information från tredje part och hur man sen kan prata kring
 de val man gjorde under uppgiften.
 
-Att lösa uppgiften borde ta 1-2 timmar, vill man göra mer så är det plus i kanten
-men man bör inte lägga för mycket tid heller. Presentationen är inte i fokus här
-utan det viktiga är att koden är sund och välstrukturerad.
+Presentationen är inte i fokus här utan det viktiga är att koden är sund och 
+välstrukturerad.
 
 Det är fritt fram att dra in nya paket från nuget (t.ex. Json.NET), npm eller
 ta lokala referenser om så önskas.
@@ -23,10 +22,10 @@ kring det åtminstone!
 
 Följande behöver som minst finnas installerat på utvecklingsmaskinen.
 
-* .NET 6.0 (https://dot.net)
+* dotnet 9.0 (https://dot.net)
 * Valfri text-editor (Visual Studio Code rekommenderas, https://code.visualstudio.com/)
 
-Då .NET 6 och Visual Studio Code fungerar oavsett plattform så är det fritt fram
+Då dotnet 9 och Visual Studio Code fungerar oavsett plattform så är det fritt fram
 att göra detta på Windows, OSX eller Linux.
 
 ## Uppgift
