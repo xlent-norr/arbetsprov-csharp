@@ -1,6 +1,5 @@
-namespace Arbetsprov.CSharp.Web.Models
-{
-    public class WeatherData {
+namespace Arbetsprov.CSharp.Web.Models;
 
-    }
+public class WeatherData {
+
 }
