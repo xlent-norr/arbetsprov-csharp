@@ -22,10 +22,10 @@ kring det åtminstone!
 
 Följande behöver som minst finnas installerat på utvecklingsmaskinen.
 
-* dotnet 9.0 (https://dot.net)
+* dotnet 10.0 (https://dot.net)
 * Valfri text-editor (Visual Studio Code rekommenderas, https://code.visualstudio.com/)
 
-Då dotnet 9 och Visual Studio Code fungerar oavsett plattform så är det fritt fram
+Då dotnet 10 och Visual Studio Code fungerar oavsett plattform så är det fritt fram
 att göra detta på Windows, OSX eller Linux.
 
 ## Uppgift
@@ -81,9 +81,29 @@ Har du egna idéer på hur något kan göras bättre? Visa vad du är bäst på!
 Om du har frågor eller känner att något behöver förtydligas kring uppgiften så
 hör av dig till din kontaktperson så får vi reda ut det.
 
+
 ## Skicka in arbetsprovet
 
 Om du gjort en fork av repositoryt så skicka länken till din kontaktperson. Om du
 klonade exempel-repositoryt eller tog ner det som en zip-fil så kan du zippa ihop
 det igen och skicka in (om du vill skicka in en ZIP-fil men har använt git så se
 till att .git-mappen följer med i ZIP-filen).
+
+
+## På plats-genomgång
+
+### Tekniska krav
+
+Följande behöver vara installerat på datorn innan genomgången.
+
+* [dotnet 10.0 SDK](https://dot.net)
+* [Git](https://git-scm.com/)
+* Valfri text-editor eller IDE (t.ex. [Visual Studio Code](https://code.visualstudio.com/), [Visual Studio](https://visualstudio.microsoft.com/) eller [Rider](https://www.jetbrains.com/rider/))
+
+### Förkunskaper
+
+För att kunna genomföra uppgiften på plats är det bra att ha grundläggande kännedom om följande.
+
+* **C#** – grundläggande syntax och objektorienterad programmering
+* **ASP.Net Core MVC** – hur controllers, modeller och vyer hänger ihop
+* **Dependency injection** – hur tjänster registreras och injiceras i ASP.Net Core
